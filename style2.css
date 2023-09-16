@@ -110,14 +110,6 @@ left: 0;*/
 }
 
 /*BARRA DE NAVEGACION*/
-
-.menu-hamburguesa{
-    display: none;
-    width: 100%;
-    justify-content: flex-end;
-    margin-bottom: 2rem;
-}
-
 .nav-menu {
     display: flex;
     list-style: none;
@@ -236,9 +228,6 @@ main {
     border-radius: 5px;
     margin-top: 15px;
     margin-bottom: 1px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .fotos {
@@ -264,6 +253,12 @@ main {
     margin-right: 10px;
 }
 
+.contenedor {
+    display: flex;
+    align-items: center;
+    margin: -10px 0;
+}
+
 .precios {
     color: #555555;
 }
@@ -284,11 +279,6 @@ main {
     border: none;
     color: #0D5C91;
     transform:matrix(2.00,0.00,-0.00,-1.00,0,0);
-}
-
-.contenedor {
-    display: flex;
-    align-items: center;
 }
 
 aside {
@@ -325,7 +315,7 @@ section {
 }
 
 .low-high {
-    margin-right: -11px;
+    margin-right: 50px;
     height: 40px;
     border: 1px solid #BCBCBC;
     width: 190px;
@@ -338,53 +328,7 @@ section {
 .price-abajo {
     border: none;
     color: #0D5C91;
-    transform: matrix(2,0,0,1,-45,1);
-}
-
-.compus {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.contenedor2 {
-    margin: 0 7px;
-    border: 1px solid #BCBCBC;
-    padding: 10px;
-}
-
-.doorbuster {
-    color: #fff;
-    background-color: #AF0200;
-    font-size: 14px;
-    height: 30px;
-    width: 76%;
-    border-radius: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5px;
-    margin-top: 3px;
-    margin-bottom: 10px;
-    font-weight: 200;
-}
-
-.card-title {
-    color: #0D5C91;
-    font-size: 14px;
-}
-
-.card-price {
-    margin-top: 40px;
-    font-size: 26px;
-    font-weight: 500;
-}
-
-.card-cupon {
-    font-size: 12px;
-    margin-top: 10px;
+    transform: matrix(2,0,0,1,-92,1);
 }
 
 footer {
@@ -425,71 +369,44 @@ footer {
     padding: 10px;
 }
 
-@media (min-width: 320px) and (max-width: 359px) {
-    .nav-menu0, .nav-menu,
-    .nav2, .nav3 {
-        display: none;
-    }
 
-    .nav {
-        margin-top: 20px;
-    }
+.menu-hamburguesa{
+    display: none;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: .2rem;
 
-    .search {
-        width: 300px;
-    }
-
-    #publicidad {
-        text-align: center;
-    }
-
-    .texto {
-        font-size: 0.5rem;
-    }
-
-    .pie {
-        font-size: 0.5rem;
-    }
-
-    main {
-        flex-direction: column;
-    }
-
-    section {
-        width: 100%
-    }
-
-    .matching {
-        flex-direction: column;
-    }
-
-    .matching-p {
-        margin-bottom: 10px;
-    }
-
-    .menu-hamburguesa {
-        display: flex;
-    }
-
-    .compus {
-        flex-wrap: wrap;
-    }
-
-    .contenedor2 {
-        margin: 20px 0;
-        width: 200px;
-    }
 }
+
+
 
 @media (min-width: 360px) and (max-width: 398px) {
     .price-abajo {
         position: relative;
-        left: 5px;
+        top: -31px;
+        left: 243px;
     }
 
-    .menu-hamburguesa {
+    .menu-hamburguesa{
         display: flex;
+
     }
+
+    .nav3{
+        width: 100%;
+        justify-content: flex-end;
+        position: relative;
+        
+    }
+    .nav-menu3{
+        width: 80%;
+        flex-flow: column;
+        position: absolute;
+        background: white;
+        z-index: 50;
+        align-items: flex-end;
+    }
+    
 }
 
 @media (min-width: 360px) and (max-width: 449px) {
@@ -534,21 +451,27 @@ footer {
         margin-bottom: 10px;
     }
 
-    .menu-hamburguesa {
+    .menu-hamburguesa{
         display: flex;
-    }
 
-    .compus {
-        flex-wrap: wrap;
     }
-
-    .contenedor2 {
-        margin: 20px 0;
-        width: 200px;
+    .nav3{
+        width: 100%;
+        justify-content: flex-end;
+        position: relative;
+        
+    }
+    .nav-menu3{
+        width: 80%;
+        flex-flow: column;
+        position: absolute;
+        background: white;
+        z-index: 50;
+        align-items: flex-end;
     }
 }
 
-@media (min-width: 450px) and (max-width: 600px) {
+@media /* (min-width: 450px) and  */(max-width: 600px) {
     .nav-menu,
     .nav2, .nav3 {
         display: none;
@@ -586,18 +509,24 @@ footer {
         margin-bottom: 10px;
     }
 
-    
-    .menu-hamburguesa {
+    .menu-hamburguesa{
         display: flex;
+
     }
 
-    .compus {
-        flex-wrap: wrap;
+    .nav3{
+        width: 100%;
+        justify-content: flex-end;
+        position: relative;
+        
     }
-
-    .contenedor2 {
-        margin: 20px 20px;
-        width: 200px;
+    .nav-menu3{
+        width: 50%;
+        flex-flow: column;
+        position: absolute;
+        background: white;
+        z-index: 50;
+        align-items: flex-end;
     }
 }
 
@@ -634,28 +563,24 @@ footer {
         font-size: 0.7rem;
     }
 
-    .menu-hamburguesa {
+    .menu-hamburguesa{
         display: flex;
+
     }
 
-    .compus {
-        flex-wrap: wrap;
+    .nav3{
+        width: 100%;
+        justify-content: flex-end;
+        position: relative;
+        
     }
-
-    .contenedor2 {
-        margin: 20px 20px;
-        width: 200px;
-    }
-}
-
-@media (min-width:768px) and (max-width: 876px) {
-    .compus {
-        flex-wrap: wrap;
-    }
-
-    .contenedor2 {
-        margin: 20px 20px;
-        width: 200px;
+    .nav-menu3{
+        width: 50%;
+        flex-flow: column;
+        position: absolute;
+        background: white;
+        z-index: 50;
+        align-items: flex-end;
     }
 }
 
@@ -675,19 +600,18 @@ footer {
     .pie{
         font-size: 0.8rem;
     }
-
-    
-    .menu-hamburguesa {
-        display: flex;
-    }
-}
-
-@media (min-width: 1164px) and (max-width: 1330px) {
-    main {
-        flex-direction: column;
-    }
-
-    section {
+    .nav3{
         width: 100%;
+        justify-content: flex-end;
+        position: relative;
+        
+    }
+    .nav-menu3{
+        width: 50%;
+        flex-flow: column;
+        position: absolute;
+        background: white;
+        z-index: 50;
+        align-items: flex-end;
     }
 }

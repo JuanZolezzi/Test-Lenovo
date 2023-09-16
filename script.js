@@ -1,9 +1,15 @@
-const navToggle = document.querySelector('.nav-toggle');
-const navMenu = document.querySelector('.nav-menu');
+const menuHamburguesa= document.getElementById('menu-hamburguesa')
+let nav3 = document.getElementById('nav3')
+let open = false
+menuHamburguesa.addEventListener('click', ()=>{
+    if (!open){
+        nav3.style.display= 'flex'
+    }else{
+        nav3.style.display= 'none' 
+    }
+    open = !open
+})
 
-navToggle.addEventListener('click', () => {
-navMenu.classList.toggle('show');
-});
 
 //EJERCICIO 1
 //Create a function that receives an array of positive integers and returns an array with only the input’s pair numbers.
