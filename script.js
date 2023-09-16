@@ -3,9 +3,9 @@ let nav3 = document.getElementById('nav3')
 let open = false
 menuHamburguesa.addEventListener('click', ()=>{
     if (!open){
-        nav3.style.display= 'flex'
+        nav3.style.display= 'flex';
     }else{
-        nav3.style.display= 'none' 
+        nav3.style.display= 'none'; 
     }
     open = !open
 })

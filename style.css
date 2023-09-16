@@ -231,14 +231,13 @@ main {
     background-color: #0D5C91;
     border: #0D5C91;
     height: 40px;
-    width: 170px;
+    width: 100%;
     color: #fff;
     border-radius: 5px;
-    margin-top: 15px;
-    margin-bottom: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 15px auto 0 auto;
 }
 
 .fotos {
@@ -353,6 +352,7 @@ section {
     margin: 0 7px;
     border: 1px solid #BCBCBC;
     padding: 10px;
+    min-height: 300px;
 }
 
 .doorbuster {
@@ -479,6 +479,11 @@ footer {
         margin: 20px 0;
         width: 200px;
     }
+
+    .nav-menu3 {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (min-width: 360px) and (max-width: 398px) {
@@ -489,6 +494,11 @@ footer {
 
     .menu-hamburguesa {
         display: flex;
+    }
+
+    .nav-menu3 {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -546,6 +556,11 @@ footer {
         margin: 20px 0;
         width: 200px;
     }
+
+    .nav-menu3 {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (min-width: 450px) and (max-width: 600px) {
@@ -599,6 +614,11 @@ footer {
         margin: 20px 20px;
         width: 200px;
     }
+
+    .nav-menu3 {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (min-width:601px) and (max-width: 767px) {
@@ -646,6 +666,11 @@ footer {
         margin: 20px 20px;
         width: 200px;
     }
+
+    .nav-menu3 {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (min-width:768px) and (max-width: 876px) {
@@ -656,6 +681,11 @@ footer {
     .contenedor2 {
         margin: 20px 20px;
         width: 200px;
+    }
+
+    .nav-menu3 {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -679,6 +709,11 @@ footer {
     
     .menu-hamburguesa {
         display: flex;
+    }
+
+    .nav-menu3 {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
