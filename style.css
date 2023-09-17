@@ -352,7 +352,8 @@ section {
     margin: 0 7px;
     border: 1px solid #BCBCBC;
     padding: 10px;
-    min-height: 300px;
+    min-height: 361px;
+    min-width: 196px;
 }
 
 .doorbuster {
@@ -360,7 +361,7 @@ section {
     background-color: #AF0200;
     font-size: 14px;
     height: 30px;
-    width: 76%;
+    width: 72%;
     border-radius: 2px;
     display: flex;
     justify-content: center;
@@ -374,6 +375,7 @@ section {
 .card-title {
     color: #0D5C91;
     font-size: 14px;
+    font-weight: 700;
 }
 
 .card-price {
@@ -385,6 +387,16 @@ section {
 .card-cupon {
     font-size: 12px;
     margin-top: 10px;
+}
+
+.yoga {
+    font-weight: 750;
+    font-size: 12px;
+    color: #000;
+}
+
+.card-img-2 {
+    margin-top: 45px;
 }
 
 footer {
@@ -483,6 +495,10 @@ footer {
     .nav-menu3 {
         flex-direction: column;
         align-items: center;
+    }
+
+    .busqueda {
+        margin: 0 auto;
     }
 }
 
