@@ -481,6 +481,8 @@ footer {
 
     .menu-hamburguesa {
         display: flex;
+        justify-content: flex-start;
+        margin: 10px;
     }
 
     .compus {
@@ -510,6 +512,8 @@ footer {
 
     .menu-hamburguesa {
         display: flex;
+        justify-content: flex-start;
+        margin: 10px;
     }
 
     .nav-menu3 {
@@ -562,6 +566,8 @@ footer {
 
     .menu-hamburguesa {
         display: flex;
+        justify-content: flex-start;
+        margin: 10px;
     }
 
     .compus {
@@ -620,6 +626,8 @@ footer {
     
     .menu-hamburguesa {
         display: flex;
+        justify-content: flex-start;
+        margin: 10px;
     }
 
     .compus {
@@ -672,6 +680,8 @@ footer {
 
     .menu-hamburguesa {
         display: flex;
+        justify-content: flex-start;
+        margin: 10px;
     }
 
     .compus {
@@ -725,6 +735,8 @@ footer {
     
     .menu-hamburguesa {
         display: flex;
+        justify-content: flex-start;
+        margin: 10px;
     }
 
     .nav-menu3 {
