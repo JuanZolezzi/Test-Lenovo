@@ -56,7 +56,7 @@ left: 0;*/
     margin-top: 5px;
 }
 
-#publicidad {
+#publicity {
     background-color: #af0e4e;
     margin-top: 23px;
     display: flex;
@@ -66,13 +66,13 @@ left: 0;*/
     height: 50px;
 }
 
-.texto {
+.text {
     color: #fff;
     text-transform: uppercase;
     font-size: 16px;
 }
 
-.texto-b {
+.text-b {
     margin-left: 15px;
 }
 
@@ -96,7 +96,7 @@ left: 0;*/
     color: #E02020;
 }
 
-.busqueda {
+.search1 {
     margin-top: 0;
     display: flex;
     background-color: #000;
@@ -104,14 +104,14 @@ left: 0;*/
     border-radius: 5px;
 }
 
-.lupa {
+.search-icon {
     position: relative;
     left: -9px;
 }
 
 /*BARRA DE NAVEGACION*/
 
-.menu-hamburguesa{
+.menu-hamburguer{
     display: none;
     width: 100%;
     justify-content: flex-end;
@@ -193,7 +193,7 @@ main {
     margin-right: 20px;
 }
 
-.price-flecha {
+.price-arrow {
     font-size: 14px;
     color: #000;
     font-weight: 700;
@@ -243,7 +243,7 @@ main {
     margin-top: 20%;
 }
 
-.caja1 {
+.box1 {
     border-bottom: solid gainsboro 1px;
     margin: 30px 0;
     line-height: 50px;
@@ -254,7 +254,7 @@ main {
     width: 20px;
 }
 
-.mini-caja {
+.little-box {
     background-color: #000;
     height: 20px;
     width: 20px;
@@ -262,7 +262,7 @@ main {
     margin-right: 10px;
 }
 
-.precios {
+.prices {
     color: #555555;
 }
 
@@ -271,7 +271,7 @@ main {
     margin-top: -15px;
 }
 
-.caja1, .izquierda {
+.box1, .left {
     list-style: none;
     justify-content: center;
     font-size: 14px;
@@ -284,7 +284,7 @@ main {
     transform:matrix(2.00,0.00,-0.00,-1.00,0,0);
 }
 
-.contenedor {
+.container {
     display: flex;
     align-items: center;
 }
@@ -293,7 +293,7 @@ main {
     margin-left: 15px;
 }
 
-.w-mini-cajas {
+.w-mini-box {
     width: 15rem;
 }
 
@@ -333,13 +333,13 @@ section2 {
     padding: 5px;
 }
 
-.price-abajo {
+.price-under {
     border: none;
     color: #0D5C91;
     transform: matrix(2,0,0,1,-45,1);
 }
 
-.compus {
+.computers {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -347,7 +347,7 @@ section2 {
     margin-left: 20px;
 }
 
-.contenedor2 {
+.container2 {
     margin: 0 7px;
     border: 1px solid #BCBCBC;
     padding: 10px;
@@ -383,7 +383,7 @@ section2 {
     font-weight: 500;
 }
 
-.card-cupon {
+.card-coupon {
     font-size: 12px;
     margin-top: 10px;
 }
@@ -408,7 +408,7 @@ footer {
     align-items: center;
 }
 
-.pie {
+.foot {
     color: #fff;
     font-size: 13px;
     text-transform: uppercase;
@@ -421,7 +421,7 @@ footer {
     list-style: none;
 }
 
-.search {
+.search2 {
     font-size: 14px;
     margin-right: 19px;
     width: 400px;
@@ -429,7 +429,7 @@ footer {
     border-radius: 5px;
 }
 
-.search::placeholder {
+.search2::placeholder {
     opacity: 1;
     color: #000;
     font-size: 14px;
@@ -446,19 +446,19 @@ footer {
         margin-top: 20px;
     }
 
-    .search {
+    .search2 {
         width: 300px;
     }
 
-    #publicidad {
+    #publicity {
         text-align: center;
     }
 
-    .texto {
+    .text {
         font-size: 0.5rem;
     }
 
-    .pie {
+    .foot {
         font-size: 0.5rem;
     }
 
@@ -478,17 +478,17 @@ footer {
         margin-bottom: 10px;
     }
 
-    .menu-hamburguesa {
+    .menu-hamburguer {
         display: flex;
         justify-content: flex-start;
         margin: 10px;
     }
 
-    .compus {
+    .computers {
         flex-wrap: wrap;
     }
 
-    .contenedor2 {
+    .container2 {
         margin: 20px 0;
         width: 200px;
     }
@@ -498,18 +498,18 @@ footer {
         align-items: center;
     }
 
-    .busqueda {
+    .search1 {
         margin: 0 auto;
     }
 }
 
 @media (min-width: 360px) and (max-width: 398px) {
-    .price-abajo {
+    .price-under {
         position: relative;
         left: 5px;
     }
 
-    .menu-hamburguesa {
+    .menu-hamburguer {
         display: flex;
         justify-content: flex-start;
         margin: 10px;
@@ -531,19 +531,19 @@ footer {
         margin-top: 20px;
     }
 
-    .search {
+    .search2 {
         width: 300px;
     }
 
-    #publicidad {
+    #publicity {
         text-align: center;
     }
 
-    .texto {
+    .text {
         font-size: 0.5rem;
     }
 
-    .pie {
+    .foot {
         font-size: 0.5rem;
     }
 
@@ -563,17 +563,17 @@ footer {
         margin-bottom: 10px;
     }
 
-    .menu-hamburguesa {
+    .menu-hamburguer {
         display: flex;
         justify-content: flex-start;
         margin: 10px;
     }
 
-    .compus {
+    .computers {
         flex-wrap: wrap;
     }
 
-    .contenedor2 {
+    .container2 {
         margin: 20px 0;
         width: 200px;
     }
@@ -594,15 +594,15 @@ footer {
         margin-top: 20px;
     }
 
-    #publicidad {
+    #publicity {
         text-align: center;
     }
 
-    .texto {
+    .text {
         font-size: 0.6rem;
     }
 
-    .pie {
+    .foot {
         font-size: 0.6rem;
     }
 
@@ -623,17 +623,17 @@ footer {
     }
 
     
-    .menu-hamburguesa {
+    .menu-hamburguer {
         display: flex;
         justify-content: flex-start;
         margin: 10px;
     }
 
-    .compus {
+    .computers {
         flex-wrap: wrap;
     }
 
-    .contenedor2 {
+    .container2 {
         margin: 20px 20px;
         width: 200px;
     }
@@ -649,11 +649,11 @@ footer {
         display: none;
     }
 
-    #publicidad {
+    #publicity {
         text-align: center;
     }
 
-    .texto {
+    .text {
         font-size: 0.7rem;
     }
 
@@ -673,21 +673,21 @@ footer {
         margin-bottom: 10px;
     }
 
-    .pie {
+    .foot {
         font-size: 0.7rem;
     }
 
-    .menu-hamburguesa {
+    .menu-hamburguer {
         display: flex;
         justify-content: flex-start;
         margin: 10px;
     }
 
-    .compus {
+    .computers {
         flex-wrap: wrap;
     }
 
-    .contenedor2 {
+    .container2 {
         margin: 20px 20px;
         width: 200px;
     }
@@ -699,11 +699,11 @@ footer {
 }
 
 @media (min-width:768px) and (max-width: 876px) {
-    .compus {
+    .computers {
         flex-wrap: wrap;
     }
 
-    .contenedor2 {
+    .container2 {
         margin: 20px 20px;
         width: 200px;
     }
@@ -727,12 +727,12 @@ footer {
         width: 100%
     }
 
-    .pie{
+    .foot{
         font-size: 0.8rem;
     }
 
     
-    .menu-hamburguesa {
+    .menu-hamburguer {
         display: flex;
         justify-content: flex-start;
         margin: 10px;

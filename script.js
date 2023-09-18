@@ -1,11 +1,11 @@
-const menuHamburguesa= document.getElementById('menu-hamburguesa')
+const menuHamburguesa = document.getElementById('menu-hamburguer')
 let nav3 = document.getElementById('nav3')
 let open = false
-menuHamburguesa.addEventListener('click', ()=>{
-    if (!open){
-        nav3.style.display= 'flex';
-    }else{
-        nav3.style.display= 'none'; 
+menuHamburguesa.addEventListener('click', () => {
+    if (!open) {
+        nav3.style.display = 'flex';
+    } else {
+        nav3.style.display = 'none';
     }
     open = !open
 })
@@ -14,16 +14,24 @@ menuHamburguesa.addEventListener('click', ()=>{
 //EJERCICIO 1
 //Create a function that receives an array of positive integers and returns an array with only the input’s pair numbers.
 
-function obtenerNumerosPares(array) {
-    const numerosPares = array.filter(numero => numero % 2 === 0);
-    return numerosPares;
+function filterEvenNumbers(inputArray) {
+    var evenNumbers = [];
+
+    for (var i = 0; i < inputArray.length; i++) {
+        var num = inputArray[i];
+
+        if (num % 2 === 0) {
+            evenNumbers.push(num);
+        }
+    }
+
+    return evenNumbers;
 }
 
-const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const numerosPares = obtenerNumerosPares(numeros);
-console.log(numerosPares);
 
-
+var inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var result = filterEvenNumbers(inputArray);
+console.log(result);
 
 //EJERCICIO 2
 //Create a function that receives a String as parameter and returns a Boolean value indicating if the word is a palindrome* or not.
